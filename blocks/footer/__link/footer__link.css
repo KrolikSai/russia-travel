@@ -1,0 +1,31 @@
+.footer__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 112%;
+    padding-right: 18px;
+}
+@media screen and (max-width: 720px) {
+    .footer__link {
+        padding-right: 9px;
+    }  
+}
+@media screen and (max-width: 630px) {
+    .footer__links {
+      padding: 0 0 32px;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 100%;
+    }  
+}
+@media screen and (max-width: 425px) {
+    .footer__link {
+      padding: 0 0 32px;
+      max-width: 74px;
+      min-height: 24px;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 100%;
+    }  
+}

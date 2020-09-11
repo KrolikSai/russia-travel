@@ -1,0 +1,20 @@
+.footer__copyright {
+    padding-top: 94px;
+    position: relative;
+    right: 0;
+    justify-self: flex-end;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+}
+@media screen and (max-width: 630px) {
+    .footer__copyright {
+        padding-right: 40px;
+    }  
+}
+@media screen and (max-width: 425px) {
+    .footer__copyright {
+       padding: 0;
+
+    }
+}

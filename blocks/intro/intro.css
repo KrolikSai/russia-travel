@@ -1,0 +1,31 @@
+.intro {
+    max-width: 690px;
+    display: flex;
+    flex-flow: column;
+    min-height: 429px;
+    margin: auto;
+    margin-top: 92px;
+    margin-left: 148px;
+  }
+  @media (max-width: 1024px) {
+    .intro {
+      padding-left: 48px;
+    }
+  }
+@media (max-width: 768px) {
+  .intro {
+    width: 93%;
+    margin: auto;
+    margin-top: 88px;
+    padding-left: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .intro {
+    width: 90%;
+    min-height: 754px;
+    margin: 0;
+    padding-left: 16px;
+    margin-top: 64px;
+  }  
+}
