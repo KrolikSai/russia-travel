@@ -1,7 +1,36 @@
 .cover__link {
-    z-index: 10;
-    text-decoration: none;
+  z-index: 10;
+  width: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .cover__link:hover {
     cursor: url(../../../images/Cursor/Pointer.png);
 }
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity .3s;
+}
+.cover__link:hover::before {
+    opacity: .8;
+}
+@media screen and (max-width: 425px) {
+    .cover__link {
+        min-height: 200px;
+    }  
+  }

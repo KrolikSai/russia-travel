@@ -9,13 +9,3 @@
   padding-top: 8px;
   letter-spacing: 0.15em;
 }
-@media (max-width: 768px) {
-  .lead__caption {
-    padding-left: 24px;
-  }
-}
-@media (max-width: 425px) {
-  .lead__caption {
-    padding-left: 16px;
-  }
-}
