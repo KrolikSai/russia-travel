@@ -1,6 +1,4 @@
 .place__website {
-  max-width: 456px;
-  min-height: 46px;
   grid-column: 2/3;
   grid-row: 1/2;
   align-self: flex-end;

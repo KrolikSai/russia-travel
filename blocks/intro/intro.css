@@ -2,14 +2,13 @@
     width: 54%;
     display: flex;
     flex-flow: column;
-    min-height: 429px;
     margin-top: 92px;
     margin-left: 148px;
   }
   @media (max-width: 1024px) {
     .intro {
-      margin-left: 48px;
       width: 67%;
+      margin-left: 48px;
     }
   }
 @media (max-width: 768px) {
@@ -23,7 +22,6 @@
 @media (max-width: 425px) {
   .intro {
     width: 90%;
-    min-height: 754px;
     margin-left: 16px;
     margin-top: 64px;
   }  

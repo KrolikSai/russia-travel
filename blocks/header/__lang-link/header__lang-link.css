@@ -24,4 +24,5 @@
 }
 .header__lang-link:hover {
   cursor: url("../../../images/Cursor/Pointer.png");
+  opacity: 0.8;
 }

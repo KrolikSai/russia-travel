@@ -14,7 +14,7 @@
 }
 @media (max-width: 690px) {
   .lead__title {
-    max-width: 94%;
+    width: 94%;
     font-size: 68px;
   }
 }
@@ -32,7 +32,6 @@
 @media (max-width: 425px) {
   .lead__title {
     width: 90%;
-    min-height: 88px;
     font-size: 40px;
     line-height: 44px;
   }

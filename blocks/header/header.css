@@ -1,17 +1,16 @@
 /* CHANGE the ru and en signs move in 768px and over 1280px */
 .header {
+  width: 93%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 28px;
-  min-height: 52px;
-  width: 93%;
   margin: auto;
- 
 }
 @media (max-width: 1024px) {
   .header {
     width: 90%;
+    padding-top: 28px;
   }
 }
 @media (max-width: 768px) {
@@ -22,7 +21,6 @@
 @media (max-width: 425px) {
   .header {
     width: 90%;
-    min-height: 42px;
     padding-top: 16px;
   }  
 }
