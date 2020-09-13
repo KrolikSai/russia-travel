@@ -16,8 +16,10 @@
     font-size: 16px;
   }  
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .place__paragraph {
+    margin: auto;
+    width: 90%;
     grid-column: 1;
     grid-row: 3;
   }  

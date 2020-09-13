@@ -18,7 +18,7 @@
         width: 94%;
     }  
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
     .footer {
         width: 58%;
         flex-flow: column;

@@ -1,4 +1,4 @@
-.footer__link_name {
+.footer__link-name {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: normal;
@@ -7,19 +7,19 @@
   padding-right: 18px;
 }
 @media screen and (max-width: 720px) {
-    .footer__link_name {
+    .footer__link-name {
       padding-right: 9px;
     }  
 }
 @media screen and (max-width: 630px) {
-    .footer__link_name {
+    .footer__link-name {
       padding: 0 0 32px;
       font-size: 24px;
       line-height: 100%;
     }  
 }
 @media screen and (max-width: 425px) {
-    .footer__link_name {
+    .footer__link-name {
       max-width: 74px;
     }  
 }
