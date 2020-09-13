@@ -37,12 +37,3 @@
     row-gap: 48px;
   }  
 }
-/*
-@media screen and (max-width: 425px) {
-  .place {
-    grid-template-columns: 100%;
-    grid-template-rows: 35px minmax(min-content, max-content) minmax(min-content, max-content);
-    column-gap: 0;
-    row-gap: 48px;
-  }  
-}
