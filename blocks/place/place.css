@@ -23,17 +23,10 @@
     margin-top: 100px;
   }  
 }
-@media screen and (max-width: 725px) {
-  .place {
-    margin-top: 100px;
-  }  
-}
 @media screen and (max-width: 600px) {
   .place {
-    margin-top: 100px;
     grid-template-columns: 100%;
     grid-template-rows: 35px minmax(min-content, max-content) minmax(min-content, max-content);
     column-gap: 0;
-    row-gap: 48px;
   }  
 }
